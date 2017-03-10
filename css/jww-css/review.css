@@ -1,0 +1,85 @@
+@import url(base.css);
+body{
+	font-size:16px;
+	font-family:Helvetica,sans-serif;
+}
+a{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+/*头部开始---------------------------------------*/
+.review-header{
+	width:100%;
+	height:.8rem;
+	background:#FCFCFC;
+	padding:0 .3rem;
+	box-sizing:border-box;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	border-bottom:1px solid #EEEEEE;
+}
+.review-header .iconfont{
+	font-size:18px;
+	color:#5A5A5A;
+}
+.review-header .header-margin{
+	font-size:18px;
+	color:#151515;
+	font-weight:bold;
+}
+.header-right{
+	color:#191919;
+}
+/*头部结束*/
+/*评论开始----------------------------------------*/
+.review{
+	height:2.53rem;
+	width:100%;
+	padding:.06rem .4rem;
+	box-sizing:border-box;
+	position:relative;
+}
+.review textarea{
+	width:100%;
+	height:100%;
+	border:2px solid #E1E0E0;
+	padding:.3rem;
+	box-sizing:border-box;
+	resize:none;
+	color:#CCCCCC;
+	font-size:14px;
+	outline:none;
+}
+.remain{
+	position:absolute;
+	bottom:.2rem;
+	right:.5rem;
+	font-size:14px;
+	color:#ccc;
+}
+.remain span{
+	font-size:18px;
+	color:#F92672;
+}
+/*评论结束*/
+/*添加照片开始------------------------------------*/
+.add{
+	width:100%;
+	height:auto;
+	padding:.1rem .7rem;
+	box-sizing:border-box;
+	color:#999;
+}
+.add .add-picture{
+	color:#333;
+}
+.add .add-jia{
+	width:.97rem;
+	height:auto;
+	margin:.3rem 0;
+}
+.add .add-jia .iconfont{
+	color:#ADACB3;
+	font-size:50px;
+}
+/*添加照片结束*/
